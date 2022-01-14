@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "huan_sun"
+version = "0.1.0"
+description = ""
+authors = ["HuanSunGo <90728672+HuanSunGo@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9.0"
+
+[tool.poetry.dev-dependencies]
+myst-nb = "^0.13.1"
+sphinx-autoapi = "^1.8.4"
+sphinx-rtd-theme = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
